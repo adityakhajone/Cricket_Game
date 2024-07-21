@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-size: x-large;
+    background: url('crick_back.jpg');
+    background-size: cover;
+  }
+#back{
+    background-color: rgba(21, 50, 70, 0.436);
+    height: 100vb;
+    width: 90%;
+    margin: 2% 5% 3% 5%;
+    border-radius: 20px;
+    border-bottom: 2px solid rgb(28, 113, 120);
+    border-right: 2px solid rgb(0, 234, 255);
+  }
+  h1{
+    font-size: 40px;
+    color: color-mix(in oklch increasing hue, rgb(175, 225, 175) 60%, cyan 40%);
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-shadow: 0 2px 0 #3dc3d2, 0 3px 0 #461616,
+                 0 20px 30px rgb(19, 78, 97);
+  }
+.pic{
+   height: 55px;
+    }
+.but{
+    height:85px;
+    width:85px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 2px solid rgb(28, 113, 120);
+    border-right: 2px solid rgb(0, 234, 255);
+    margin: 5px;
+    background-color:rgba(89, 170, 184, 0.232);
+    transition: all 0.3s ease;
+}
+.but:hover{
+ transform: scale(1.1);
+}
+#user-move ,#computer-move{
+font-size: 25px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(208, 231, 156);
+text-shadow: 0 3px 0 #343148, 0 3px 0 #ccb8b8,
+0 20px 30px rgb(19, 78, 97);
+}
+#result{
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 196, 0);
+  text-shadow: 0 3px 0 #343148, 0 3px 0 #ccb8b8,
+               0 20px 30px rgb(19, 78, 97);
+}
+#score{
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(208, 231, 156);
+  text-shadow: 0 3px 0 #343148, 0 3px 0 #ccb8b8,
+               0 20px 30px rgb(19, 78, 97);
+}
+
+.instructions{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 20px;
+  width: 380px;
+  top: 100px;
+  
+}
+.instructions h4{
+  text-align: center;
+  font-size: 18px; 
+  color: rgb(85, 14, 14);
+  text-decoration: underline;
+  position: relative;
+  font-family: 'Cooper Black';
+  top: 25px;
+  left: 5px;
+  text-shadow: 0 1.5px 0 #c3c1d3, 0 1px rgb(193, 134, 134);
+}
+#list{
+  font-family: 'Monotype Corsiva';
+  text-align: left;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.5px;
+  text-shadow: 0 1.5px 0 #000000;
+}
