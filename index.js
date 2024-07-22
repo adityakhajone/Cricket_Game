@@ -101,6 +101,6 @@ let scoreStr=localStorage.getItem('Score');
     }
     function resetGame() {
       localStorage.clear();
-      resetScore();
+      resetScore();.......
     }
     
