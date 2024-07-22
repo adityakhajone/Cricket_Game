@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cricket Game</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="back">
+  <h1>Cricket Game with Computer</h1>
+  <button class="but" onclick="playGame('Bat')"><img src="bat.png" alt="Bat image" class="pic"></button>
+
+  <button class="but" onclick="playGame('Ball')"><img src="ball.png" alt="Ball image" class="pic"></button>
+
+  <button class="but" onclick="playGame('Stump')"><img src="stump.png" alt="Stump image" class="pic"></button>
+ 
+
+ <h3 id="user-move"></h3>
+ <h3 id="computer-move"></h3>
+ <h3 id="result"></h3>
+ <h3 id="score"></h3>
+
+ <button class="but" onclick="resetGame()"><img src="reset.png" alt="Reset image" class="pic"></button>
+<div class="instructions">
+  <h4>The rules of the game are as follows.</h4>
+ <ol type="1" id="list">
+  <li>This is the basic game for timepass situation.</li>
+  <li>You need to choose any one option</li>
+  <li>After your choice computer will choose it's choice</li>
+  <li>The hierachy of winning is <u>Stump > Bat > Ball</u></li>
+  <li>Winning depends on Computer choice </li>
+</ol>
+
+</div>
+
+</div>
+  <script src="index.js">
+  
+  </script>
+</body>
+</html>
